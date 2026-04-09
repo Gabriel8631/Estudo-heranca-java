@@ -1,16 +1,15 @@
-public class Usuario extends EntidadeBase<Long> {
-    private String nome;
-    private String email;
+package repositorio;
 
-    public Usuario(Long id, String nome, String email) {
-        this.setId(id);
-        this.nome = nome;
-        this.email = email;
-    }
+import dominio.Usuario;
+import java.util.Optional;
 
-    public String getEmail() {
-        return email;
+public class UsuarioRepositorio extends RepositorioBase<Usuario, Long> {
+
+    // O CRUD base já foi herdado! 
+    // Aqui implementamos APENAS consultas específicas do Usuário:
+    public Optional<Usuario> buscarPorEmail(String email) {
+        return bancoDeDados.values().stream()
+                .filter(usuario -> usuario.getEmail().equalsIgnoreCase(email))
+                .findFirst();
     }
-    
-    // Getters e Setters omitidos para brevidade...
 }

@@ -1,3 +1,5 @@
+package dominio;
+
 public class Usuario extends EntidadeBase<Long> {
     private String nome;
     private String email;

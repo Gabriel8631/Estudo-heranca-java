@@ -5,12 +5,17 @@ Repositório dedicado ao estudo de Herança e Polimorfismo em Java, demonstrando
 Este repositório contém exemplos práticos de como implementar Herança e Polimorfismo.
 
  Conceitos Aplicados
+ 
  **Extends:** Uso da palavra-chave para criar uma relação "é um".
+ 
  **Super:** Chamada de construtores e métodos da classe pai.
+ 
  **Override:** Sobrescrita de métodos para comportamentos específicos nas subclasses.
+ 
  **Protected:** Modificador de acesso que permite que filhos vejam atributos do pai.
 
  Como Executar
+ 
 1. Clone o repositório.
 2. Compile a classe `Principal.java`.
 3. Execute para ver o Polimorfismo em ação.

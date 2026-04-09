@@ -16,6 +16,6 @@ Este repositório contém exemplos práticos de como implementar Herança e Poli
 
  Como Executar
  
-1. Clone o repositório.
-2. Compile a classe `Principal.java`.
-3. Execute para ver o Polimorfismo em ação.
+1. Clone o Repositório.
+3. Compile a classe `Principal.java`.
+4. Execute para ver o Polimorfismo em ação.
